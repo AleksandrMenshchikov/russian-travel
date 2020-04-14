@@ -1,0 +1,13 @@
+@import "./__logo/header__logo.css";
+@import './__lang-link/header__lang-link.css';
+@import './__links-container/header__links-container.css';
+@import './__links-list/header__links-list.css';
+@import './__link-item/header__link-item.css';
+@import './__lang-link/_active/header__lang-link_active.css';
+
+.header {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

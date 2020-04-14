@@ -1,0 +1,12 @@
+@import "./__header/page__header.css";
+@import "./__lead/page__lead.css";
+
+.page {
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
