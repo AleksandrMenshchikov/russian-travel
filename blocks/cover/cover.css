@@ -1,0 +1,11 @@
+@import "./__link/cover__link.css";
+@import "./__title/cover__title.css";
+@import "./__image/cover__image.css";
+@import "./__subtitle/cover__subtitle.css";
+@import "./__text/cover__text.css";
+
+.cover {
+  max-width: 1184px;
+  display: -webkit-box;
+  display: flex;
+}

@@ -1,0 +1,10 @@
+@import './__title/intro__title.css';
+@import './__text/intro__text.css';
+@import './__list/intro__list.css';
+@import './__list-item/intro__list-item.css';
+@import './__list-digit/intro__list-digit.css';
+
+.intro {
+  max-width: 984px;
+}
+

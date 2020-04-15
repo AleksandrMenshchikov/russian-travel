@@ -1,0 +1,21 @@
+@import "./__links/footer__links.css";
+@import "./__list/footer__list.css";
+@import "./__list-item/footer__list-item.css";
+@import "./__link/footer__link.css";
+@import "./__copyright/footer__copyright.css";
+
+.footer {
+  max-width: 1184px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+}

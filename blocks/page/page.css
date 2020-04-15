@@ -1,5 +1,10 @@
 @import "./__header/page__header.css";
 @import "./__lead/page__lead.css";
+@import "./__intro/page__intro.css";
+@import "./__photo-grid/page__photo-grid.css";
+@import "./__places/page__places.css";
+@import "./__cover/page__cover.css";
+@import './__footer/page__footer.css';
 
 .page {
   background-color: #2a2c2f;
@@ -10,3 +15,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+

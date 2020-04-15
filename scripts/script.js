@@ -1,14 +1,25 @@
-const listOfLinks = document.querySelectorAll(".header__lang-link");
-const parentOfLinks = document.querySelector(".header__links-list");
-parentOfLinks.addEventListener("click", (e) => {
-  if (e.target.classList.contains("header__lang-link")) {
-    e.target.classList.add("header__lang-link_active");
+class CreateActiveLink {
+  constructor(ulElement, activeElement, linkElement) {
+    this.ulElement = document.querySelector(`.${ulElement}`);
+    this.activeElement = activeElement;
+    this.linkElement = linkElement;
+    this.listOfLinks = document.querySelectorAll(`.${linkElement}`);
+    this.ulElement.addEventListener("click", this.handlerEvent.bind(this));
   }
-  for (let i = 0; i < listOfLinks.length; i++) {
-    if (listOfLinks[i] === e.target) continue;
-    listOfLinks[i].classList.remove("header__lang-link_active");
+
+  handlerEvent(e) {
+    if (e.target.classList.contains(this.linkElement)) {
+      e.target.classList.add(this.activeElement);
+    }
+    for (let i = 0; i < this.listOfLinks.length; i++) {
+      if (this.listOfLinks[i] === e.target) continue;
+      this.listOfLinks[i].classList.remove(this.activeElement);
+    }
   }
-});
-document
-  .querySelector(".header__lang-link")
-  .classList.add("header__lang-link_active");
+}
+
+const createActiveLink = new CreateActiveLink(
+  "header__links-list",
+  "header__lang-link_active",
+  "header__lang-link"
+);

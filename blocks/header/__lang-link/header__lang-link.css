@@ -6,6 +6,7 @@
   line-height: 28px;
   color: #ffffff;
   text-decoration: none;
+  -webkit-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -19,3 +20,4 @@
     line-height: 24px;
   }
 }
+
