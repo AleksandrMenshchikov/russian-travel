@@ -1,12 +1,11 @@
 .footer__link {
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
   text-decoration: none;
-  margin-right: 18px;
   -webkit-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
   display: inline-block;

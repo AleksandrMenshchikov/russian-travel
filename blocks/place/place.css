@@ -7,7 +7,6 @@
 @import "./__paragraph/place__paragraph.css";
 
 .place {
-  padding-top: 92px;
   display: grid;
   grid-template-columns: 460px 484px;
   -webkit-box-pack: center;
@@ -24,16 +23,14 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    grid-template-columns: 340px 352px;
-    padding-top: 88px;
+    grid-template-columns: 1fr 1.03fr;
     grid-gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 611px) {
   .place {
-    padding-top: 64px;
-    grid-template-columns: minmax(310px, 320px);
+    grid-template-columns: 1fr;
     grid-gap: 32px;
   }
 }

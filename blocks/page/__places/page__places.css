@@ -11,6 +11,12 @@
 
 @media screen and (max-width: 767px) {
   .page__places {
+    padding: 0 16px 64px;
+  }
+}
+
+@media screen and (max-width: 611px) {
+  .page__places {
     padding: 0 0 64px;
   }
 }
