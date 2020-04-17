@@ -8,7 +8,6 @@
   color: #fffdfd;
   margin: 0 auto;
   max-width: 560px;
-  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
